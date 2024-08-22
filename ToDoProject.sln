@@ -5,9 +5,18 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoProject.Domain", "ToDoProject\ToDoProject.Domain.csproj", "{F5853626-9E39-4F94-AA53-77055C6EABE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoProject.Infrastructure", "ToDoProject.Infrastructure\ToDoProject.Infrastructure.csproj", "{9F3C0391-B8E0-4035-BD1D-AE2C1F00F8AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoProject.Persistance", "ToDoProject.Infrastructure\ToDoProject.Persistance.csproj", "{9F3C0391-B8E0-4035-BD1D-AE2C1F00F8AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoProject.API", "ToDoProject.API\ToDoProject.API.csproj", "{DA06D319-80C3-4EFD-8DB6-29B0882D5C0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0CA10F44-9912-4C30-AD6C-B30C793A6835}"
+	ProjectSection(SolutionItems) = preProject
+		notes.txt = notes.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{80D7CC12-CA0D-4A55-8102-00506D84FBC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoProject.Application", "TodoProject.Application\TodoProject.Application.csproj", "{C532FC10-57AD-421B-A6B3-A76D030C2F82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +36,17 @@ Global
 		{DA06D319-80C3-4EFD-8DB6-29B0882D5C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA06D319-80C3-4EFD-8DB6-29B0882D5C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA06D319-80C3-4EFD-8DB6-29B0882D5C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C532FC10-57AD-421B-A6B3-A76D030C2F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C532FC10-57AD-421B-A6B3-A76D030C2F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C532FC10-57AD-421B-A6B3-A76D030C2F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C532FC10-57AD-421B-A6B3-A76D030C2F82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5853626-9E39-4F94-AA53-77055C6EABE5} = {80D7CC12-CA0D-4A55-8102-00506D84FBC3}
+		{C532FC10-57AD-421B-A6B3-A76D030C2F82} = {80D7CC12-CA0D-4A55-8102-00506D84FBC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5C8F04F5-B133-48DD-8684-F4C0792B8069}

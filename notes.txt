@@ -1,0 +1,29 @@
+
+----------------------------User Stories----------------------------
+
+1: as a user, I should be able to see my todo list
+2: as a user, I should be able to add todo's to my list
+
+
+
+
+----------------------------Bugs----------------------------
+
+
+
+
+
+----------------------------Misc + notes ----------------------------
+
+-todo shall be written without the dash "-", aka the minus sign.
+-todo shall never be written in CamelCase, so no ToDo.
+
+	
+----------------------------todo is a record ----------------------------
+-todo shall be a Record, because:
+	- value based equality
+	- primary constructor
+	- immutability out of the box
+
+-Records don't work with Entity framework, because entity framework relies on reference equality checks
+that's why we need to introduce mapping between data entities and our domain objects
