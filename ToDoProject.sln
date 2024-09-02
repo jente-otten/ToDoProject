@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoProject.Domain", "ToDoProject\ToDoProject.Domain.csproj", "{F5853626-9E39-4F94-AA53-77055C6EABE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoProject.Domain", "ToDoProject\ToDoProject.Domain.csproj", "{F5853626-9E39-4F94-AA53-77055C6EABE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoProject.Persistance", "ToDoProject.Infrastructure\ToDoProject.Persistance.csproj", "{9F3C0391-B8E0-4035-BD1D-AE2C1F00F8AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoProject.Persistance", "ToDoProject.Infrastructure\ToDoProject.Persistance.csproj", "{9F3C0391-B8E0-4035-BD1D-AE2C1F00F8AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoProject.API", "ToDoProject.API\ToDoProject.API.csproj", "{DA06D319-80C3-4EFD-8DB6-29B0882D5C0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoProject.API", "ToDoProject.API\ToDoProject.API.csproj", "{DA06D319-80C3-4EFD-8DB6-29B0882D5C0E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0CA10F44-9912-4C30-AD6C-B30C793A6835}"
 	ProjectSection(SolutionItems) = preProject
@@ -16,7 +16,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{80D7CC12-CA0D-4A55-8102-00506D84FBC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoProject.Application", "TodoProject.Application\TodoProject.Application.csproj", "{C532FC10-57AD-421B-A6B3-A76D030C2F82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoProject.Application", "TodoProject.Application\TodoProject.Application.csproj", "{C532FC10-57AD-421B-A6B3-A76D030C2F82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{1984C700-D851-4CC4-9580-9F428ED31796}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{5E96CA71-0482-4652-BC5B-A954848BCC1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +50,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F5853626-9E39-4F94-AA53-77055C6EABE5} = {80D7CC12-CA0D-4A55-8102-00506D84FBC3}
+		{9F3C0391-B8E0-4035-BD1D-AE2C1F00F8AA} = {5E96CA71-0482-4652-BC5B-A954848BCC1C}
+		{DA06D319-80C3-4EFD-8DB6-29B0882D5C0E} = {1984C700-D851-4CC4-9580-9F428ED31796}
 		{C532FC10-57AD-421B-A6B3-A76D030C2F82} = {80D7CC12-CA0D-4A55-8102-00506D84FBC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
