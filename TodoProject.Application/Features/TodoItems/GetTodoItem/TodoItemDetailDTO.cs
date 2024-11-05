@@ -7,10 +7,9 @@ using ToDoProject.Domain;
 
 namespace TodoProject.Application.Features
 {
-    public class TodoTaskDetailDTO
+    public class TodoItemDetailDTO
     {
         public string Title { get; set; } = string.Empty;
         public DateOnly DueDate { get; set; }
-        public User? CreatedBy { get; set; }
     }
 }

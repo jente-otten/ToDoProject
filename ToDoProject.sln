@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoProject.Domain", "ToDoProject\ToDoProject.Domain.csproj", "{F5853626-9E39-4F94-AA53-77055C6EABE5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoProject.Persistance", "ToDoProject.Infrastructure\ToDoProject.Persistance.csproj", "{9F3C0391-B8E0-4035-BD1D-AE2C1F00F8AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoProject.Persistence", "ToDoProject.Infrastructure\ToDoProject.Persistence.csproj", "{9F3C0391-B8E0-4035-BD1D-AE2C1F00F8AA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoProject.API", "ToDoProject.API\ToDoProject.API.csproj", "{DA06D319-80C3-4EFD-8DB6-29B0882D5C0E}"
 EndProject
@@ -20,7 +20,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoProject.Application", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{1984C700-D851-4CC4-9580-9F428ED31796}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{5E96CA71-0482-4652-BC5B-A954848BCC1C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5E96CA71-0482-4652-BC5B-A954848BCC1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

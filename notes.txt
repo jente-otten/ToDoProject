@@ -7,6 +7,11 @@
 
 
 
+----------------------------Todo----------------------------
+-add validation to all commands and queries (CreateTodoItemCommandValidator is an example)
+
+
+
 ----------------------------Bugs----------------------------
 
 
@@ -17,6 +22,7 @@
 
 -todo shall be written without the dash "-", aka the minus sign.
 -todo shall never be written in CamelCase, so no ToDo.
+
 
 	
 ----------------------------todo is a record ----------------------------

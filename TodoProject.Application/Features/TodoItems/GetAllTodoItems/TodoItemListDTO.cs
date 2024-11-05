@@ -1,5 +1,4 @@
-﻿using MediatR;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +7,9 @@ using ToDoProject.Domain;
 
 namespace TodoProject.Application.Features
 {
-    public class GetAllTodoTasksQuery : IRequest<List<TodoTaskListDTO>>
+    public class TodoItemListDTO
     {
+        public string Title { get; set; } = string.Empty;
+        public DateOnly DueDate { get; set; }
     }
 }
